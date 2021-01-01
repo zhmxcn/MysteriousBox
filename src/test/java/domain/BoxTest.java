@@ -13,4 +13,12 @@ class BoxTest {
 
         assertEquals(box.getLastHashCode(),"0");
     }
+
+    @Test
+    public void should_return_HashCode_0_when_boxid_is_1() throws Exception {
+
+        Box box = new Box();
+
+        assertEquals(box.getHashCode(),"0");
+    }
 }

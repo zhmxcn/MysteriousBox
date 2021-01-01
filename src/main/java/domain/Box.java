@@ -10,4 +10,8 @@ public class Box {
     public String getLastHashCode() {
         return "0";
     }
+
+    public String getHashCode() {
+        return null;
+    }
 }
